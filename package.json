@@ -1,0 +1,19 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "타입스크립트로 만드는 블록체인",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc-watch --onSuccess \" node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
